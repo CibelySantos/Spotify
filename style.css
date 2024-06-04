@@ -36,3 +36,16 @@ p#spotify {
     background-color: rgba(22, 19, 19, 0.7);
     border-radius: 6px;
 }
+#tudologin{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%, rgba(9,9,121,1) 100%);
+    height: 800px;
+}
+.login{
+    background-color: black;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
