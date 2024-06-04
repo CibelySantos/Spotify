@@ -1,2 +1,11 @@
 /* Cibely Cristiny n°04
 Julia Fortunato n°15 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#tudo{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%, rgba(9,9,121,1) 100%);
+}
