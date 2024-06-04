@@ -5,3 +5,34 @@ Julia Fortunato n°15 */
     margin: 0;
     padding: 0;
 }
+
+#bodyplayer{
+    background-color: rgb(35, 34, 34);
+}
+
+#imgspotify{
+    margin-top: 13px;
+}
+
+.quadro1{
+    margin: 13px;
+    border: solid 1px;
+    width: 20%;
+    background-color: rgba(22, 19, 19, 0.7);
+    border-radius: 8px;
+}
+
+p#spotify {
+    color: white;
+    margin-bottom:auto;
+    margin-left: 18px;
+    margin-bottom: 3px;
+}
+
+.quadro2{
+    margin: 9px;
+    border: solid 1px;
+    width: 20%;
+    background-color: rgba(22, 19, 19, 0.7);
+    border-radius: 6px;
+}
