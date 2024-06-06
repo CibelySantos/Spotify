@@ -231,6 +231,10 @@ input{
     background-color: #1db954;
     border: solid 1px #1db954;
     margin-top: 10%;
+    transition: all 300ms ease-out;
+}
+#enter:hover{
+    height: 4rem;
 }
 footer{
     background-color: #181818;
