@@ -6,22 +6,50 @@ Julia Fortunato n°15 -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <link rel="shortcut icon" type="img" href="./imgs/guia - spotify.png">
+        <title>Login - Spotify</title>
     </head>
     <body id="tudologin">
         <div class="tudo">
             <div class="login">
                 <img id="img1" src="imgs/icon - spotify.png" alt="" width="35px">
-                <h1>Entrar no Spotify</h1>
             </div>
+            <h1>Entrar no Spotify</h1>
             <div class="botoes">
                 <center>
-                    <button><a href=""><img src="imgs/icon - google.png" alt="" width="30px">Continuar com o Google</a></button>
-                    <button><a href=""><img src="imgs/icon - facebook.png" alt="" width="30px">Continuar com o Facebook</a></button>
-                    <button><a href=""><img src="imgs/icon - apple.png" alt="" width="30px">Continuar com a Apple</a></button>
-                    <button><a href="">Continuar com um número de telefone</a></button>
-                </center>                  
+                    <button class="botoes1"><img src="imgs/icon - google.png" alt="" width="15px">Continuar com o Google</button>
+                    <button class="botoes1"><img src="imgs/icon - facebook.png" alt="" width="15px">Continuar com o Facebook</button>
+                    <button class="botoes1"><img src="imgs/icon - apple.png" alt="" width="15px">Continuar com a Apple</button>
+                    <button class="botoes1">Continuar com um número de <br> telefone</a></button>                  
+                </center>
+            </div>
+            <p>_______________________________________________________________</p>
+            <div class="div"> 
+                <form action="homepage.html">               
+
+                    <label for="name">E-mail ou nome de usuário</label> <br>
+                    <input type="text" name="name" id="name" placeholder="E-mail ou nome de usuário" required/> <br>
+
+                    <label for="senha">Senha</label> <br>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required/>
+
+                    <div class="switch__container">
+                        <input id="switch-shadow" class="switch switch--shadow" type="checkbox" />
+                        <label for="switch-shadow"></label><p id="y">Lembrar de mim</p>
+                    </div>
+
+                    <button id="enter" type="submit">Entrar</button>
+
+                    <a id="ab" href="login.html">Esqueceu sua senha?</a>
+                </form>
+            </div>
+            <p>_______________________________________________________________</p>
+            <div>
+                <p id="n">Não tem uma conta?<a href="">Inscrever-se no Spotify</a></p> 
             </div>
         </div>
+        <footer>
+            <p id="x">Este site é protegido pelo reCAPTCHA e está sujeito à <a id="x" href="https://policies.google.com/privacy">Política de Privacidade</a> e aos <a id="x" href="https://policies.google.com/terms">Termos de Serviço</a> do Google.</p>
+        </footer>
     </body>
 </html>

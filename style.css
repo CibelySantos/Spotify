@@ -5,15 +5,12 @@ Julia Fortunato n°15 */
     margin: 0;
     padding: 0;
 }
-
 #bodyplayer{
     background-color: rgb(35, 34, 34);
 }
-
 #imgspotify{
     margin-top: 13px;
 }
-
 .quadro1{
     margin: 13px;
     border: solid 1px;
@@ -21,14 +18,12 @@ Julia Fortunato n°15 */
     background-color: rgba(22, 19, 19, 0.7);
     border-radius: 8px;
 }
-
-p#spotify {
+p #spotify {
     color: white;
     margin-bottom:auto;
     margin-left: 18px;
     margin-bottom: 3px;
 }
-
 .quadro2{
     margin: 9px;
     border: solid 1px;
@@ -36,60 +31,19 @@ p#spotify {
     background-color: rgba(22, 19, 19, 0.7);
     border-radius: 6px;
 }
-#tudologin{
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%, rgba(9,9,121,1) 100%);
-    height: 800px;
-    color: white;
-    
-}
-.login{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.login, .tudo{
-    background-color: black;
-    margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 7px;
-}
-#img1{
-    margin-top: 2%;
-}
-img, button, a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    text-decoration: none;
-}
-button{
-    color: white;
-    border: solid 1px white;
-    border-radius: 50px;
-}
-a{
-    margin: 10px;
-    color: white;
-}
-
 .spotify-playlists {
     padding: 20px 40px;
 }
-
 .spotify-playlists h2 {
     color: #ffffff;
     font-size: 22px;
     margin-bottom: 20px;
 }
-
 .spotify-playlists .list {
     display: flex;
     gap: 20px;
     overflow: hidden;
 }
-
 .spotify-playlists .list .item {
     min-width: 140px;
     width: 160px;
@@ -99,23 +53,17 @@ a{
     cursor: pointer;
     transition: all ease 0.4s;
 }
-
 .spotify-playlists .list .item:hover {
     background-color: #252525;
 }
-
-
-
 .spotify-playlists .list .item img {
     width: 100%;
     border-radius: 6px;
     margin-bottom: 10px;
 }
-
 .spotify-playlists .list .item .play {
     position: relative;
 }
-
 .spotify-playlists .list .item .play .fa {
     position: absolute;
     right: 10px;
@@ -126,12 +74,10 @@ a{
     opacity: 0;
     transition: all ease 0.4s;
 }
-
 .spotify-playlists .list .item:hover .play .fa {
     opacity: 1;
     transform: translateY(-20px);
 }
-
 .spotify-playlists .list .item h4 {
     color: #ffffff;
     font-size: 14px;
@@ -141,19 +87,16 @@ a{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .spotify-playlists .list .item p {
     color: #989898;
     font-size: 12px;
     line-height: 20px;
     font-weight: 500;
 }
-
 .spotify-playlists hr {
     margin: 70px 0px 0px;
     border-color: #636363;
 }
-
 .preview {
     position: fixed;
     bottom: 0;
@@ -164,7 +107,6 @@ a{
     display: flex;
     justify-content: space-between;
 }
-
 .preview h6 {
     color: #ffffff;
     text-transform: uppercase;
@@ -172,13 +114,11 @@ a{
     font-size: 12px;
     margin-bottom: 10px;
 }
-
 .preview p {
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
 }
-
 .preview button {
     background-color: #ffffff;
     color: #000000;
@@ -188,4 +128,184 @@ a{
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
+}
+#tudologin{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%, rgba(9,9,121,1) 100%);
+    height: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.login, .tudo{
+    background-color: #181818;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 7px;
+}
+.tudo{
+    margin-bottom: 3%;
+}
+#img1{
+    margin-top: 10%;
+}
+.botoes{
+    margin-top: 3%;
+}
+.botoes1{
+    padding: 5px 30px;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid rgb(88, 88, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border: solid 1px #989898;
+}
+.botoes1:hover, input:hover{
+    border: solid 1px white;
+}
+img{
+    margin-right: 7px;
+    margin-left: 5px;
+}
+img, button, a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+}
+button{
+    color: white;
+    border-radius: 50px;
+    padding: 1%;
+    margin: 1%;
+}
+a{
+    margin: 10px;
+    color: white;
+}
+h1{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: #3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    background-color: #181818;
+    color: white;
+    font-weight: bold;
+    border: solid 1px #989898;
+    border-radius: 5px;
+    width: 245px;
+    padding: 7%;
+    margin: 3%;
+    margin-right: 25%;
+}
+#enter{
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    color: black;
+    background-color: #1db954;
+    border: solid 1px #1db954;
+    margin-top: 10%;
+}
+footer{
+    background-color: #181818;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+#n{
+    color: #989898;
+    padding: 7%;
+}
+#x{
+    color: #989898;
+    font-size: small;
+}
+a:hover{
+    color: #1db954;
+}
+#ab{
+    margin-top: 10%;
+}
+#y{
+    margin-left: 2%;
+    color: white;
+}
+.switch__container{
+    display: flex;
+    margin-top: 2%;
+}
+.switch {
+    position: absolute;
+    visibility: hidden;
+}
+.switch + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+.switch--shadow + label {
+    padding: 2px;
+    width: 30px;
+    height: 15px;
+    background-color: #989898;
+    border-radius: 60px;
+}
+.switch--shadow + label:before, .switch--shadow + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: '';
+}
+.switch--shadow + label:before {
+    right: 1px;
+    background-color: #989898;
+    border-radius: 60px;
+    transition: all 0.4s;
+}
+.switch--shadow + label:after {
+    width: 15px;
+    background-color: black;
+    border-radius: 100%;
+    box-shadow: black;
+    transition: all 0.4s;
+}
+.switch--shadow:checked + label:before {
+    background-color: #1db954;
+}
+.switch--shadow:checked + label:after {
+    transform: translateX(15px);
 }
