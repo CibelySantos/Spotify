@@ -6,9 +6,6 @@ Julia Fortunato n°15 */
     padding: 0;
 }
 
-#bodyplayer{
-    background-color: rgb(35, 34, 34);
-}
 
 #imgspotify{
     margin-top: 13px;
@@ -94,21 +91,18 @@ a{
     min-width: 140px;
     width: 160px;
     padding: 15px;
-    background-color: #181818;
-    border-radius: 6px;
     cursor: pointer;
     transition: all ease 0.4s;
 }
 
 .spotify-playlists .list .item:hover {
     background-color: #252525;
+    right: 120%;
 }
 
-
-
 .spotify-playlists .list .item img {
-    width: 100%;
-    border-radius: 6px;
+    width: 120%;
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
@@ -149,10 +143,77 @@ a{
     font-weight: 500;
 }
 
-.spotify-playlists hr {
-    margin: 70px 0px 0px;
-    border-color: #636363;
+
+.spotify-albuns {
+    padding: 20px 40px;
 }
+
+.spotify-albuns h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.spotify-albuns .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.spotify-albuns .list .item {
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.spotify-albuns .list .item:hover {
+    background-color: #252525;
+}
+
+.spotify-albuns .list .item img {
+    width: 120%;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.spotify-albuns .list .item .play {
+    position: relative;
+}
+
+.spotify-albuns .list .item .play .fa {
+    position: absolute;
+    top: -40px;
+    padding: 20px;
+    background-color: #1db954;
+    border-radius: 100%;
+    transition: all ease 0.4s;
+    
+}
+
+.spotify-albuns .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.spotify-albuns .list .item h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.spotify-albuns .list .item p {
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
 
 .preview {
     position: fixed;
@@ -188,4 +249,153 @@ a{
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
+}
+
+#bodyplayer{
+    background-color: rgb(35, 34, 34);;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar {
+    margin: 13px;
+    border: solid 1px;
+    background-color: rgba(22, 19, 19, 0.7);
+    border-radius: 8px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 285px;
+    padding: 22px;
+}
+
+.sidebar .logo img {
+    width: 130px;
+}
+
+.sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sidebar .navigation ul li {
+    padding: 10px 0px;
+}
+
+.sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sidebar .navigation ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar .navigation ul li a:hover {
+    color: #ffffff;
+}
+
+
+.sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+}
+
+.sidebar .policies ul {
+    list-style: none;
+}
+
+.sidebar .policies ul li {
+    padding-bottom: 5px;
+}
+
+.sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.sidebar .policies ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 19, 19, 0.7);
+    padding: 0,5px 20px;
+    border-radius: 8px;
+}
+
+.topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color:rgb(22, 19, 19, 0.7);
+    margin-right: 10px;
+}
+
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul {
+    list-style: none;
+}
+
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+
+.topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.topbar .navbar ul li a:hover {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar .navbar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.topbar .navbar button:hover {
+    background-color: #f2f2f2;
+}
+
+.bloco2{
+    margin: 13px;
+    border: solid 1px;
+    width: 20%;
+    background-color: rgba(22, 19, 19, 0.7);
+    border-radius: 8px;
 }
