@@ -5,14 +5,13 @@ Julia Fortunato n°15 */
     margin: 0;
     padding: 0;
 }
-
 .bodyhomepage {
     background-color: #121212;
     font-family: 'Montserrat', sans-serif;
 }
-
 .lateral {
-    width: 300px;
+    height: 100vh;
+    width: 350px;
     background: #030303;
     position: fixed;
     top: 0;
@@ -20,42 +19,35 @@ Julia Fortunato n°15 */
     bottom: 0;
     padding: 10px;
 }
-
 .navegação {
+    height: 20%;
     background: #111111;
     border-radius: 10px;
     padding: 20px 10px;
     margin-bottom: 10px;
 }
-
 .logospotify {
     width: 120px;
 }
-
 .logospotify img {
     width: 120px;
 }
-
 .navegação ul li {
     padding: 10px 20px;
 }
-
 .navegação ul li a {
     text-decoration: none;
     color: #b3b3b3;
     font-size: 16px;
     font-weight: 600;
 }
-
 .navegação ul li a:hover {
     color: #fff;
 }
-
 .navegação ul li a i {
     font-size: 20px;
     margin-right: 10px;
 }
-
 .biblioteca::after {
     content: "+";
     float: right;
@@ -63,44 +55,36 @@ Julia Fortunato n°15 */
     border-radius: 50%;
     font-size: 15px;
 }
-
 .create-playlist {
     background: #302f2f;
     padding: 30px 15px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-
 .seçãorolamento{
     height: 120px;
     overflow-y: auto;
 }
-
 .seçãorolamento::-webkit-scrollbar {
     background: transparent;
 }
-
 .seçãorolamento::-webkit-scrollbar-thumb {
     background: transparent;
     width: 10px;
 }
-
 .seçãorolamento:hover::-webkit-scrollbar-thumb {
     background: #5c5b5b;
     width: 5px;
 }
-
 .create-playlist h4 {
     color: #fff;
     font-size: 18px;
 }
-
 .create-playlist p {
     color: #fff;
     font-size: 14px;
     margin: 12px 0;
 }
-
 .create-playlist button {
     padding: 8px 15px;
     border: 0;
@@ -109,17 +93,14 @@ Julia Fortunato n°15 */
     font-weight: 600;
     margin-bottom: 10px;
 }
-
 .footerhomepage ul {
     list-style: none;
     margin-top: 20px;
 }
-
 .footerhomepage ul li {
     padding: 0 12px;
     padding-bottom: 8px;
 }
-
 .footerhomepage ul li a {
     text-decoration: none;
     color: #818080;
@@ -127,16 +108,16 @@ Julia Fortunato n°15 */
     font-weight: 600;
     margin: 0 6px;
 }
-
 .footerhomepage ul li a:hover {
     text-decoration: underline;
     color: #bebcbc;
 }
-
+a{
+    text-decoration: none;
+}
 .botaoidioma {
     padding: 20px 30px;
 }
-
 .botaoidioma button {
     padding: 10px 30px;
     background: transparent;
@@ -147,7 +128,6 @@ Julia Fortunato n°15 */
     border-radius: 20px;
     margin: 20px 0;
 }
-
 .botaoidioma button:hover {
     padding: 11px 31px;
     border: 1px solid #fff;
@@ -156,7 +136,6 @@ Julia Fortunato n°15 */
     margin-left: 350px;
     margin-bottom: 100px;
 }
-
 .topo {
     display: flex;
     justify-content: space-between;
@@ -164,7 +143,6 @@ Julia Fortunato n°15 */
     padding: 14px 30px;
     border-radius: 5px;
 }
-
 .topo .botaodepassagem button {
     color: #7a7a7a;
     cursor: not-allowed;
@@ -176,22 +154,18 @@ Julia Fortunato n°15 */
     background-color: #090909;
     margin-right: 10px;
 }
-
 .topo .navbar {
     display: flex;
     align-items: center;
 }
-
 .topo .navbar ul {
     list-style: none;
 }
-
 .topo .navbar ul li {
     display: inline-block;
     margin: 0px 8px;
     width: 90px;
 }
-
 .topo .navbar ul li a {
     color: #b3b3b3;
     text-decoration: none;
@@ -199,12 +173,9 @@ Julia Fortunato n°15 */
     font-size: 13px;
     letter-spacing: 1px;
 }
-
 .topo .navbar ul li a:hover {
     color: #ffffff;
-    font-size: 15px;
 }
-
 .topo .navbar button {
     background-color: #ffffff;
     color: #000000;
@@ -220,53 +191,41 @@ Julia Fortunato n°15 */
     text-decoration: none;
     color: #000000;
 }
-
 .topo .navbar button:hover {
     background-color: #f2f2f2;
 }
-
 .playlists {
     padding: 20px 40px;
 }
-
 .playlists h2 {
     color: #ffffff;
     font-size: 22px;
     margin-bottom: 20px;
 }
-
 .playlists .lista {
     display: flex;
     gap: 20px;
     overflow: hidden;
 }
-
 .playlists .lista .item {
     min-width: 140px;
     width: 160px;
     padding: 15px;
-    background-color: #181818;
     border-radius: 6px;
     cursor: pointer;
     transition: all ease 0.4s;
 }
-
 .playlists .lista .item:hover {
     background-color: #252525;
 }
-
-
-
 .playlists .lista .item img {
     width: 105%;
     border-radius: 100%;
     margin-bottom: 10px;
 }
-
 .playlists .lista .item .play {
     position: relative;
 }
-
 .playlists .lista .item .play .fa {
     position: absolute;
     right: 10px;
@@ -277,12 +236,10 @@ Julia Fortunato n°15 */
     opacity: 0;
     transition: all ease 0.4s;
 }
-
 .playlists .lista .item:hover .play .fa {
     opacity: 1;
     transform: translateY(-20px);
 }
-
 .playlists .lista .item h4 {
     color: #ffffff;
     font-size: 14px;
@@ -292,44 +249,36 @@ Julia Fortunato n°15 */
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .playlists .lista .item p {
     color: #989898;
     font-size: 12px;
     line-height: 20px;
     font-weight: 500;
 }
-
 .playlists .lista2 {
     display: flex;
     gap: 20px;
     overflow: hidden;
 }
-
 .playlists .lista2 .item {
     min-width: 140px;
     width: 160px;
     padding: 15px;
-    background-color: #181818;
     border-radius: 6px;
     cursor: pointer;
     transition: all ease 0.4s;
 }
-
 .playlists .lista2 .item:hover {
     background-color: #252525;
 }
-
 .playlists .lista2 .item img {
     width: 103%;
     border-radius: 6px;
     margin-bottom: 10px;
 }
-
 .playlists .lista2 .item .play {
     position: relative;
 }
-
 .playlists .lista2 .item .play .fa {
     position: absolute;
     right: 10px;
@@ -340,12 +289,10 @@ Julia Fortunato n°15 */
     opacity: 0;
     transition: all ease 0.4s;
 }
-
 .playlists .lista2 .item:hover .play .fa {
     opacity: 1;
     transform: translateY(-20px);
 }
-
 .playlists .lista2 .item h4 {
     color: #ffffff;
     font-size: 14px;
@@ -355,10 +302,14 @@ Julia Fortunato n°15 */
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .playlists .lista2 .item p {
     color: #989898;
     font-size: 12px;
     line-height: 20px;
     font-weight: 500;
+}
+iframe{
+    margin-left: 20px;
+    width: 97%;
+    height: 590px;
 }
