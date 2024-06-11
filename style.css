@@ -56,14 +56,15 @@ Julia Fortunato n°15 */
     font-size: 15px;
 }
 .create-playlist {
-    background: #302f2f;
-    padding: 30px 15px;
+    background: #2b2b2b;
+    padding: 17px 20px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 .seçãorolamento{
-    height: 120px;
+    height: 200px;
     overflow-y: auto;
+
 }
 .seçãorolamento::-webkit-scrollbar {
     background: transparent;
@@ -311,5 +312,5 @@ a{
 iframe{
     margin-left: 20px;
     width: 97%;
-    height: 590px;
+    height: 650px;
 }
