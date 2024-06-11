@@ -1,15 +1,97 @@
-<!-- Cibely Cristiny n°04
-Julia Fortunato n°15 -->
+<!-- Júlia Fortunato e Cibely -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="shortcut icon" type="img" href="./imgs/guia2 - spotify.png">
-        <title>Play Music | Spotify</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web player: música para todas as pessoas </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./imgs/guia2 - spotify.png" type="image/x-icon">
+</head>
+
+<body class="bodyhomepage">
+    <div class="lateral">
+        <div class="navegação">
+            <div class="logospotify">
+                <a href=""><img src="./imgs/logo-new.png" alt="Logo"></a>
+            </div>
+            <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    <span>Início</span>
+                </a></li>
+                <li><a href="">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>Buscar</span>
+                </a></li>
+            </ul>
+        </div>
+        <div class="navegação playlist">
+            <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-book"></i></span>
+                    <span class="biblioteca">Sua Biblioteca</span>
+                </a></li>
+                <li>
+                    <div class="seçãorolamento">
+                        <div class="create-playlist">
+                            <h4>Criar sua playlist</h4>
+                            <p>É fácil, vamos te ajudar</p>
+                            <button>Criar playlist</button>
+                        </div>
+                        <div class="create-playlist">
+                            <h4>Que tal seguir um podcast novo?</h4>
+                            <p>Avisaremos sobre novos episódios</p>
+                            <button>Explore podcasts</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="footerhomepage">
+                <ul>
+                    <li>
+                        <a href="">Legal</a>
+                        <a href="">Segurança e privacidade</a>
+                        <a href="">Política de privacidade</a>
+                    </li>
+                    <li>
+                        <a href="">Cookies</a>
+                        <a href="">Sobre anúncios</a>
+                        <a href="">Acessibilidade</a>
+                    </li>
+                    <li><a href="">Cookies</a></li>
+                </ul>
+            </div>
+            <div class="botaoidioma">
+                <button>Português do Brasil</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="homepage">
+        <div class="topo">
+            <div class="botaodepassagem">
+                <button type="button" class="fa fas fa-chevron-left"></button>
+                <button type="button" class="fa fas fa-chevron-right"></button>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="">Inscrever-se</a>
+                    </li>
+                </ul>
+                <button><a href="./login.html">Entrar</a></button>
+            </div>
+        </div>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/487N2T9nIPEHrlTZLL3SQs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </body>
+    </div>
+    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
